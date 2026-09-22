@@ -18,6 +18,6 @@ target:
     - linux/amd64
 
 images:
-  - source: nvcr.io/nvidia/pytorch:24.07-py3
-    target: nvidia/pytorch:24.07-py3
-    multiarch: true
+  - source: donnmyth/mlperf-nvidia:llama31_8b-pyt-sm90
+    target: mlperf-nvidia:llama31_8b-pyt-sm90
+    multiarch: false
